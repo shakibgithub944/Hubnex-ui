@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.bg-blue {
+  background-color: #030C4D;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading-text {
+  font-size: 55px;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-Items {}
+
+.nav-Items:hover {
+  border-bottom: 2px solid white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.nav-button {
+  background: none;
+  border: 2px solid gray;
+  color: #FFFFFF;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+.nav-button:hover {
+  border: 2px solid #FFFFFF;
+}
+
+.banner-button {
+  background: none;
+  border: 2px solid #FFFFFF;
+  padding: 10px 25px;
+  color: #FFFFFF;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+.banner-button:hover {
+  background: white;
+  color: violet;
+}
+
+.section-caption {
+  color: #030C4D;
+}
+
+.gradient-btn {
+  width: 150px;
+  background: rgb(3, 12, 77);
+  background: linear-gradient(90deg, rgba(3, 12, 77, 1) 0%, rgba(123, 39, 216, 1) 100%);
   color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.gradient-btn:hover {
+  background: rgb(122, 40, 218);
+  background: linear-gradient(0deg, rgba(122, 40, 218, 1) 0%, rgba(90, 69, 247, 1) 100%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+/* animation */
+.at-item {
+  animation-name: slide-top;
+  animation-duration: 4.2s;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+
+}
+
+@keyframes slide-top {
+
+  0% {
+    transform: translateY(0);
   }
-  to {
-    transform: rotate(360deg);
+
+  50% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }
