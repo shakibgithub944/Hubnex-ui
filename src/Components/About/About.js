@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className="container">
 
-            <div className="row pt-5 mt-5">
+            <div className="row pt-5 mt-5 mb-5 pb-5">
                 <div className="col-6">
                     <h1 className='fw-bold section-caption'>About HUBNEX</h1>
                     <p className='section-caption fs-5'>Hubnex has been serving more than hundreds of clients from different industries in several countries. Being a complete business solutions and digital marketing company, we take pride in creating success stories. Every business is unique so we do not believe in the ‘one-size-fits-all’ approach. Our list of services are diverse and you will get one stop for all your digital requirements.</p>
