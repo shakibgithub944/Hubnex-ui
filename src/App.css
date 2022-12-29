@@ -61,11 +61,48 @@
   background: rgb(122, 40, 218);
   background: linear-gradient(0deg, rgba(122, 40, 218, 1) 0%, rgba(90, 69, 247, 1) 100%);
 }
-.bg-counter{
+
+.bg-counter {
   background: rgb(3, 12, 77);
   background: linear-gradient(90deg, rgba(3, 12, 77, 1) 0%, rgba(123, 39, 216, 1) 100%);
 }
 
+.parent {
+  position: relative;
+}
+
+.icon:hover i {
+  color: white;
+}
+
+.child-icon {
+  position: absolute;
+  top: 30%;
+  right: 45%;
+}
+
+.bg-faq {
+  background: rgb(99, 60, 239);
+  background: linear-gradient(90deg, rgba(99, 60, 239, 1) 0%, rgba(119, 43, 220, 1) 100%);
+}
+
+.faq-question:hover {
+  color: #9387FB;
+}
+
+.footer-bg {
+  background: rgb(14, 14, 91);
+  background: linear-gradient(90deg, rgba(14, 14, 91, 1) 0%, rgba(91, 31, 197, 1) 100%);
+}
+.social-icon{
+  width: 50px;
+  height: 50px;
+  padding:10px 12px;
+  background-color: #6D48BB;
+  border-radius: 50%;
+  margin-right: 10px;
+
+}
 
 /* animation */
 .at-item {
