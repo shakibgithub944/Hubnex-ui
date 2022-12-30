@@ -3,7 +3,7 @@ import React from 'react';
 const Faq = () => {
     return (
         <div className='container-fluid bg-faq'>
-            <div className="row py-5">
+            <div className="row py-5"data-aos="fade-up" data-aos-duration="1500">
                 <div className="col-12 text-center">
                     <h1 className='fw-bold text-white'>FREQUENTLY ASKED QUESTIONS</h1>
                     <hr className='mx-auto' style={{ width: '80px', color: 'white', height: '3px' }} />
@@ -13,7 +13,7 @@ const Faq = () => {
                 <div className="row">
                     <div className="col-12 pb-5">
                         <div className="accordion" id="accordionExample">
-                            <div className="accordion-item">
+                            <div className="accordion-item"data-aos="fade-up" data-aos-duration="1500">
                                 <h2 className="accordion-header" id="headingOne">
                                     <button className="accordion-button fw-bold py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style={{ color: '#9387FB' }}>
                                         <span style={{ color: '#9387FB' }}><i className="bi bi-question-circle mx-2"></i></span> How do you increase sales?
@@ -27,7 +27,7 @@ const Faq = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="accordion-item">
+                            <div className="accordion-item"data-aos="fade-up" data-aos-duration="1800">
                                 <h2 className="accordion-header" id="headingTwo">
                                     <button className="accordion-button fw-bold py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo"style={{ color: '#9387FB' }}>
                                         <span style={{ color: '#9387FB' }}><i className="bi bi-question-circle mx-2"></i></span>  How do I get more customers for my Business?
@@ -41,7 +41,7 @@ const Faq = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="accordion-item">
+                            <div className="accordion-item"data-aos="fade-up" data-aos-duration="2000">
                                 <h2 className="accordion-header" id="headingThree">
                                     <button className="accordion-button fw-bold py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" style={{ color: '#9387FB' }}>
                                         <span style={{ color: '#9387FB' }}><i className="bi bi-question-circle mx-2"></i></span>  What strategies would you use to generate quality leads?
@@ -55,7 +55,7 @@ const Faq = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="accordion-item">
+                            <div className="accordion-item"data-aos="fade-up" data-aos-duration="2200">
                                 <h2 className="accordion-header" id="headingThree">
                                     <button className="accordion-button fw-bold py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour"style={{ color: '#9387FB' }}>
                                         <span style={{ color: '#9387FB' }}><i className="bi bi-question-circle mx-2"></i></span>  What is Social Media Marketing (SMM)?
@@ -69,7 +69,7 @@ const Faq = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="accordion-item">
+                            <div className="accordion-item"data-aos="fade-up" data-aos-duration="2400">
                                 <h2 className="accordion-header" id="headingThree">
                                     <button className="accordion-button fw-bold py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive"style={{ color: '#9387FB' }}>
                                         <span style={{ color: '#9387FB' }}><i className="bi bi-question-circle mx-2"></i></span>  Is it worth it to advertise on Facebook?
@@ -83,7 +83,7 @@ const Faq = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="accordion-item">
+                            <div className="accordion-item"data-aos="fade-up" data-aos-duration="2600">
                                 <h2 className="accordion-header" id="headingThree">
                                     <button className="accordion-button fw-bold py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix"style={{ color: '#9387FB' }}>
                                         <span style={{ color: '#9387FB' }}><i className="bi bi-question-circle mx-2"></i></span>  Is Digital Marketing cost effective?
@@ -97,7 +97,7 @@ const Faq = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="accordion-item">
+                            <div className="accordion-item"data-aos="fade-up" data-aos-duration="2800">
                                 <h2 className="accordion-header" id="headingThree">
                                     <button className="accordion-button fw-bold py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven"style={{ color: '#9387FB' }}>
                                         <span style={{ color: '#9387FB' }}><i className="bi bi-question-circle mx-2"></i></span>How long does a new website take to design and develop?

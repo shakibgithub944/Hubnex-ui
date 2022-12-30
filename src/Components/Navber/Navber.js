@@ -3,7 +3,7 @@ import logo from '../asset/logo.png'
 const Navber = () => {
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-blue fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-light bg-blue sticky-top">
             <div className="container">
                 <a className="navbar-brand" href="/#">
                     <img src={logo} alt="" className='m-4' style={{ height: '40px' }} />

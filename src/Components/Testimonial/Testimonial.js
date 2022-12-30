@@ -9,14 +9,14 @@ import reviewer from '../asset/testimonials-1.jpg'
 const Testimonial = () => {
     return (
         <div className='container-fluid' style={{ backgroundColor: '#F9F8FF' }}>
-            <div className="row py-5">
+            <div className="row py-5"data-aos="fade-up" data-aos-duration="1500">
                 <div className="col-12 text-center">
                     <h1 className='fw-bold section-caption'>TESTIMONIALS</h1>
                     <hr className='mx-auto' style={{ width: '80px', color: '#F3A01C', height: '3px' }} />
                     <p className='section-caption'>What's Our Clients Says About Us</p>
                 </div>
             </div>
-            <div className="row">
+            <div className="row"data-aos="fade-up" data-aos-duration="2000">
                 <div className="col-lg-1"></div>
                 <div className="col-lg-10 col-sm-12">
                     <Swiper

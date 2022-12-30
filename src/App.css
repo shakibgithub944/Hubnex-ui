@@ -70,9 +70,11 @@
 .parent {
   position: relative;
 }
-
+.serviceCard:hover{
+   box-shadow: -2px 2px 28px -8px rgba(0,0,0,0.75);
+}
 .icon:hover i {
-  color: white;
+  color: rgb(244, 114, 0);
 }
 
 .child-icon {
@@ -103,7 +105,6 @@
   margin-right: 10px;
 
 }
-
 /* animation */
 .at-item {
   animation-name: slide-top;

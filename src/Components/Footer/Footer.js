@@ -18,22 +18,22 @@ const Footer = () => {
                     <h5> Useful Links</h5>
 
                     <div className='text-white'>
-                        <p><i class="bi bi-chevron-right"></i> Home</p>
-                        <p><i class="bi bi-chevron-right"></i>About us</p>
-                        <p><i class="bi bi-chevron-right"></i>Refund Policy</p>
-                        <p><i class="bi bi-chevron-right"></i>Terms of service</p>
-                        <p><i class="bi bi-chevron-right"></i>Privacy policy</p>
+                        <p><i className="bi bi-chevron-right"></i> Home</p>
+                        <p><i className="bi bi-chevron-right"></i>About us</p>
+                        <p><i className="bi bi-chevron-right"></i>Refund Policy</p>
+                        <p><i className="bi bi-chevron-right"></i>Terms of service</p>
+                        <p><i className="bi bi-chevron-right"></i>Privacy policy</p>
                     </div>
                 </div>
                 <div className="col-lg-3 col-sm-12 ">
                     <h5>Our Services</h5>
 
                     <div className='text-white'>
-                        <p><i class="bi bi-chevron-right"></i>Website and App Development</p>
-                        <p><i class="bi bi-chevron-right"></i>Search Engine Optimization</p>
-                        <p><i class="bi bi-chevron-right"></i>Social Media Optimisation</p>
-                        <p><i class="bi bi-chevron-right"></i>PR and Brand Management</p>
-                        <p><i class="bi bi-chevron-right"></i>Content Management</p>
+                        <p><i className="bi bi-chevron-right"></i>Website and App Development</p>
+                        <p><i className="bi bi-chevron-right"></i>Search Engine Optimization</p>
+                        <p><i className="bi bi-chevron-right"></i>Social Media Optimisation</p>
+                        <p><i className="bi bi-chevron-right"></i>PR and Brand Management</p>
+                        <p><i className="bi bi-chevron-right"></i>Content Management</p>
                     </div>
                 </div>
                 <div className="col-lg-4 col-sm-12 ">
@@ -60,10 +60,10 @@ const Footer = () => {
                 </div>
                 <div className="col-lg-6 col-sm-12">
                     <div className='text-end'>
-                    <span className='social-icon'><i class="bi bi-twitter"></i></span>
-                    <span className='social-icon'><i class="bi bi-facebook"></i></span>
-                    <span className='social-icon'><i class="bi bi-instagram"></i></span>
-                    <span className='social-icon'><i class="bi bi-linkedin"></i></span>
+                    <span className='social-icon'><i className="bi bi-twitter"></i></span>
+                    <span className='social-icon'><i className="bi bi-facebook"></i></span>
+                    <span className='social-icon'><i className="bi bi-instagram"></i></span>
+                    <span className='social-icon'><i className="bi bi-linkedin"></i></span>
                     </div>
                 </div>
             </div>
